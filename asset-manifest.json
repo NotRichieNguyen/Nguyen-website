@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Nguyen-website/static/css/main.073c9b0a.css",
+    "main.js": "/Nguyen-website/static/js/main.1a08e9c3.js",
+    "static/js/787.93c0ff9f.chunk.js": "/Nguyen-website/static/js/787.93c0ff9f.chunk.js",
+    "index.html": "/Nguyen-website/index.html",
+    "main.073c9b0a.css.map": "/Nguyen-website/static/css/main.073c9b0a.css.map",
+    "main.1a08e9c3.js.map": "/Nguyen-website/static/js/main.1a08e9c3.js.map",
+    "787.93c0ff9f.chunk.js.map": "/Nguyen-website/static/js/787.93c0ff9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1a08e9c3.js"
+  ]
+}

@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  font-family: Poppins, sans-serif;
+  position: fixed;
+  background: white;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  z-index: 3;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-weight: bold;
+  width: 500px;
+}
+
+.linkedin-icon {
+  height: 30px;
+}
+
+.linkedin {
+  padding-top: 8px;
+  margin-right: 20px;
+}
+
+.github-icon {
+  height: 42px;
+}
+
+.github {
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+.right-section {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  background-color: white;
+  font-size: 16px;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover {
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  color: lightcoral;
+}
+
+.button2:hover {
+  color: lightskyblue;
+}
+
+.button3:hover {
+  color: lightgreen;
+}
+
+.button4:hover {
+  color: lightcoral;
+}
