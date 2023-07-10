@@ -1,0 +1,396 @@
+a {
+  text-decoration: none;
+  color: #2d2e32;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #147efb;
+  transition: color 0.3s;
+}
+
+.top {
+  background-color: rgba(241, 241, 241, 0.466);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.top-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.introduction {
+  height: 300px;
+  width: 413px;
+  margin-right: 120px;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.picture {
+  border-radius: 160px;
+  border: 2px solid black;
+  width: 300px;
+}
+
+.tech-stack {
+  width: 825px;
+  height: 200px;
+  margin-top: 100px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tech-stack ul li {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  height: 5.5rem;
+  justify-content: center;
+  width: 5.5rem;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.tech-stack ul li img {
+  height: 3.4rem;
+  width: 3.4rem;
+  margin-left: 1.1rem;
+  margin-top: 1.1rem;
+}
+
+.middle {
+  background-color: #fff;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-left {
+  margin-top: 150px;
+}
+
+.about-left-picture {
+  width: 350px;
+  border-radius: 60px;
+}
+
+.about-right {
+  margin-top: 175px;
+  margin-left: 150px;
+  width: 500px;
+}
+
+.about-right-1 {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: #147efb;
+  margin-bottom: 10px;
+}
+
+.about-right-2 {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.animated-text {
+  font-size: 34px;
+  font-weight: bold;
+  min-width: 280px;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "Youtuber";
+  color: #147efb;
+  animation: words 20s infinite;
+}
+
+.animated-text span::after {
+  margin-top: 8px;
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 85%;
+  background-color: #fff;
+  border-left: 2px solid #2d2e32;
+  right: -10px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "Reliable";
+  }
+  21%,
+  40% {
+    content: "Adaptable";
+  }
+  41%,
+  60% {
+    content: "Coopoerative";
+  }
+  61%,
+  80% {
+    content: "Communicative";
+  }
+  81%,
+  100% {
+    content: "Diligent";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+
+.about-right-3 {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  margin-top: 15px;
+  color: #585858;
+  height: 200px;
+  width: 550px;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  background-color: rgba(241, 241, 241, 0.466);
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-1-content,
+.project-2-content,
+.project-3-content {
+  background-color: #fff;
+  border-radius: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 600px;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-1-name {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.project-1-languages {
+  margin-bottom: 30px;
+}
+
+.project-1-picture {
+  margin-bottom: 5px;
+  width: 500px;
+  height: 320px;
+}
+
+.thumbnail-1 {
+  width: 30rem;
+  border-radius: 50px;
+  margin-left: 8px;
+}
+
+.project-1-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-1-code {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.project-1-code:hover {
+  color: #147efb;
+}
+
+.github-icon-1-content {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.github-icon-1 {
+  width: 1.5rem;
+}
+
+.project-1-desc {
+  margin-bottom: 5px;
+  height: 150px;
+  width: 500px;
+}
+.project-2-content {
+}
+
+.project-3-content {
+}
+
+.contact-content {
+  background-color: #fff;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-top {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #147efb;
+}
+
+.contact-bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-name {
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-name-icon-content {
+}
+
+.contact-name-icon {
+  width: 70px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-name-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  margin-left: 10px;
+}
+
+.mail-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.mail-icon-content {
+  margin-right: 10px;
+}
+
+.mail-icon {
+  width: 70px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.mail-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+}
+
+.linkedin-content {
+  margin-right: 50px;
+}
+
+.linkedin-icon-2-content {
+}
+
+.linkedin-icon-2 {
+  width: 70px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.github-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.github-icon-2 {
+  width: 70px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-right: 0px;
+}
+
+.github-username {
+  margin-left: 10px;
+  margin-right: 50px;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+}
+
+.end {
+  background-color: #2d2e32;
+  padding: 5rem;
+}
