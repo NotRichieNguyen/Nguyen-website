@@ -45,7 +45,7 @@ a:hover {
 }
 
 .tech-stack {
-  width: 1025px;
+  width: 825px;
   height: 200px;
   margin-top: 100px;
   margin-right: 70px;
@@ -224,7 +224,7 @@ a:hover {
   margin-right: 25px;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 40%;
+  width: 600px;
   font-family: Poppins, sans-serif;
   color: #2d2e32;
   display: flex;
@@ -277,31 +277,11 @@ a:hover {
 }
 
 .project-1-desc {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   height: 150px;
-  width: 90%;
+  width: 500px;
 }
-
-.project-2-name {
-  margin-top: 120px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.project-2-languages {
-  margin-bottom: 35px;
-}
-
-.thumbnail-2 {
-  width: 35rem;
-  border-radius: 30px;
-  margin-bottom: 20px;
-}
-
-.project-2-desc {
-  margin-bottom: 137px;
-  height: 150px;
-  width: 90%;
+.project-2-content {
 }
 
 .project-3-content {
@@ -326,20 +306,6 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.linkedin-content {
-  width: 150px;
-  display: flex;
-  flex-direction: row;
-  justify-self: center;
-  align-items: center;
-}
-
-.linkedin-username {
-  margin-left: 10px;
-  font-family: Poppins, sans-serif;
-  color: #2d2e32;
 }
 
 .contact-name {
@@ -415,7 +381,6 @@ a:hover {
   border-radius: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin-right: 0px;
-  margin-left: 50px;
 }
 
 .github-username {
