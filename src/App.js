@@ -23,7 +23,7 @@ function App() {
     <div>
       <div className="header">
         <div className="left-section">
-          <div className="name">&lt;&gt;Nguyen&lt;/&gt;</div>
+          <div className="name">&lt;&gt;Nguyenn&lt;/&gt;</div>
         </div>
         <div className="right-section">
           <div className="home">
