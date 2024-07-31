@@ -233,6 +233,18 @@ a:hover {
   align-items: center;
 }
 
+.trendi-thumbnails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-thumbnail3 {
+  width: 249px;
+  margin-left: 20px;
+}
+
 .project-1-name {
   margin-bottom: 10px;
   font-weight: bold;
@@ -244,13 +256,13 @@ a:hover {
 
 .project-1-picture {
   margin-bottom: 5px;
-  width: 500px;
+  width: 600px;
   height: 320px;
 }
 
 .thumbnail-1 {
-  width: 30rem;
-  border-radius: 50px;
+  width: 100%;
+  border-radius: 20px;
   margin-left: 8px;
 }
 
@@ -268,12 +280,15 @@ a:hover {
   color: #147efb;
 }
 
-.github-icon-1-content {
-  margin-left: 5px;
-  margin-right: 20px;
-}
-.github-icon-1 {
+.github-icon-1,
+.share-icon {
   width: 1.5rem;
+  margin-left: 3px;
+}
+.share-icon {
+  width: 1.2rem;
+  margin-top: 3px;
+  margin-left: 5px;
 }
 
 .project-1-desc {
@@ -428,4 +443,51 @@ a:hover {
 .end {
   background-color: #2d2e32;
   padding: 5rem;
+}
+
+.projects-root-container {
+  min-height: 200vh;
+  background-color: rgba(241, 241, 241, 0.466);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 200px;
+  height: 500px;
+}
+
+.project-header {
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-techstack {
+  margin-bottom: 40px;
+}
+
+.new-project-thumbnail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.project-thumbnail {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.project-links {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  font-weight: bold;
 }

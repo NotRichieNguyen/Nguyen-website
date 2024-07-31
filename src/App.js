@@ -92,19 +92,19 @@ function App() {
           <div className="profile-picture">
             <img
               className="picture"
-              alt="profile-picture"
+              alt="profile"
               src="images/profile-picture.jpg"
             />
           </div>
         </div>
         <div className="tech-stack">
           <ul>
-            {/* <li className="html-logo">
+            <li className="html-logo">
               <img alt="html" src="images/html.svg" />
             </li>
             <li className="css-logo">
               <img alt="css" src="images/css.svg" />
-            </li> */}
+            </li>
             <li className="js-logo">
               <img alt="js" src="images/js.svg" />
             </li>
@@ -128,7 +128,7 @@ function App() {
         <div className="about-left">
           <img
             className="about-left-picture"
-            alt="about-picture"
+            alt="about"
             src="images/about-picture.jpg"
           />
         </div>
@@ -138,21 +138,163 @@ function App() {
             I am <span></span>
           </div>
           <div className="about-right-3">
-            As a highly motivated student graduating with a B.S. in computer
-            science, I am beginning to build a foundation with multiple
-            programming skills such as Javascript, React, Python, and Django.
-            Through various projects and coursework, I have honed my
-            problem-solving abilities, attention to detail, and ability to work
-            effectively. With my passion for technology and my strong
-            programming skills, I am excited to apply my knowledge and
-            collaborate with talented professionals in the near future!
+            <p style={{ width: "85%" }}>
+              As a highly motivated student graduating with a B.S. in computer
+              science, I am beginning to build a foundation with multiple
+              programming languages such as HTML/CSS, JavaScript, C++, and
+              Python
+            </p>
+            <p style={{ width: "90%" }}>
+              Through various projects and coursework, I was able to develop
+              skills in technologies and frameworks such as React.js, Node.js,
+              Django, Git, VS Code, Google Cloud Workspace etc...
+            </p>
+            <p style={{ width: "90%" }}>
+              {" "}
+              With my passion for technology and my strong programming skills, I
+              am excited to apply my knowledge and collaborate with talented
+              professionals in the near future!
+            </p>
           </div>
         </div>
       </div>
-      <div className="bottom">
+      <div className="projects-root-container">
+        <h1
+          style={{ color: "#147efb", marginTop: "50px" }}
+          className="project-header"
+        >
+          MY PROJECTS
+        </h1>
+        <div className="project-container">
+          <div className="project-header">
+            <h3>Full Stack Nail Salon Website</h3>
+          </div>
+          <div className="project-techstack">
+            JavaScript, React.js, RESTful APIs, Git, Vercel
+          </div>
+          <div className="trendi-thumbnails">
+            <div className="new-project-thumbnail">
+              <img
+                class="project-thumbnail"
+                alt="thumbnail1"
+                src="images/thumbnail3.png"
+              />
+            </div>
+            <div className="new-project-thumbnail2">
+              <img
+                class="project-thumbnail3"
+                alt="thumbnail3"
+                src="images/trendimobile.jpg"
+              />
+            </div>
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/NotRichieNguyen/Nguyen-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </a>
+            <a
+              href="https://github.com/NotRichieNguyen/Nguyen-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="github-icon-1"
+                alt="githubicon"
+                src="images/github.png"
+              />
+            </a>
+            <a
+              href="https://business-website-seven-iota.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ marginLeft: "20px" }}
+            >
+              Demo
+            </a>
+            <div className="share-icon-container">
+              <a
+                href="https://business-website-seven-iota.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="share-icon"
+                  alt="share"
+                  src="images/share.jpg"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-container">
+          <div className="project-header">
+            <h3>Nutrition Tracker App</h3>
+          </div>
+          <div className="project-techstack">Python, Django, Public APIs</div>
+          <div className="new-project-thumbnail">
+            <img
+              className="project-thumbnail"
+              src="images/thumbnail2.png"
+              alt="thumbnail2"
+            />
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/NotRichieNguyen/NuTracker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </a>
+            <a
+              href="https://github.com/NotRichieNguyen/NuTracker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="github-icon-1"
+                alt="githubicon"
+                src="images/github.png"
+              />
+            </a>
+            <a
+              href="https://github.com/NotRichieNguyen/NuTracker"
+              target="_blank"
+              rel="noreferrer"
+              style={{ marginLeft: "20px" }}
+            >
+              Demo
+            </a>
+            <div className="share-icon-container">
+              <a
+                href="https://github.com/NotRichieNguyen/NuTracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="share-icon"
+                  alt="share"
+                  src="images/share.jpg"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <div className="project-container" style={{ height: "10%" }}>
+          <div className="project-header">
+            <h3>More Coming Soon!</h3>
+          </div>
+          <div className="project-techstack">(Tech Stack)</div>
+        </div> */}
+      </div>
+      {/* <div className="bottom">
         <div className="project-1-content">
-          <div className="project-1-name">Front End Web Portfolio</div>
-          <div className="project-1-languages">HTML, CSS, JS, REACT</div>
+          <div className="project-1-name">Full Stack Nail Salon Website</div>
+          <div className="project-1-languages">React.js, RESTful APIs, Git</div>
           <div className="project-1-picture">
             <img
               class="thumbnail-1"
@@ -165,6 +307,7 @@ function App() {
               <a
                 href="https://github.com/NotRichieNguyen/Nguyen-website"
                 target="_blank"
+                rel="noreferrer"
               >
                 Code
               </a>
@@ -173,6 +316,7 @@ function App() {
               <a
                 href="https://github.com/NotRichieNguyen/Nguyen-website"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="github-icon-1"
@@ -181,7 +325,7 @@ function App() {
                 />
               </a>
             </div>
-            {/* <div className="project-1-demo"><a href="https://www.linkedin.com/in/richienguyen36/" target="_blank">Demo</a></div> */}
+
           </div>
           <div className="project-1-desc">
             Being a computer science student, my initial ambition was to create
@@ -207,6 +351,7 @@ function App() {
               <a
                 href="https://github.com/NotRichieNguyen/NuTracker"
                 target="_blank"
+                rel="noreferrer"
               >
                 Code
               </a>
@@ -215,6 +360,7 @@ function App() {
               <a
                 href="https://github.com/NotRichieNguyen/NuTracker"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="github-icon-1"
@@ -223,26 +369,19 @@ function App() {
                 />
               </a>
             </div>
-            {/* <div className="project-1-demo"><a href="https://www.linkedin.com/in/richienguyen36/" target="_blank">Demo</a></div> */}
+
           </div>
           <div className="project-2-desc">
             As a fitness enthusiast, I set out to create a nutrition tracker web
             application using Python and Django, effectively integrating data
             from a public API. This project showcases my proficiency in web
-            development, demonstrating my ability to leverage external
-            data sources to provide users with a comprehensive and intuitive
-            tool for tracking their nutritional intake.
+            development, demonstrating my ability to leverage external data
+            sources to provide users with a comprehensive and intuitive tool for
+            tracking their nutritional intake.
           </div>
-        </div>
-        {/* <div className="project-3-content">
-          <div className="project-3-name">Coming Soon...</div>
-          <div className="project-3-languages"></div>
-          <div className="project-3-picture">
-            <img alt="thumbnail3" />
-          </div>
-          <div className="project-3-desc"></div>
-        </div> */}
-      </div>
+        </div> 
+
+      </div>*/}
       <div className="contact-content">
         <div className="contact-top">
           <h3>CONTACT</h3>
@@ -253,6 +392,7 @@ function App() {
               <a
                 href="https://www.linkedin.com/in/richienguyen36/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   alt="linkedicon"
@@ -265,7 +405,11 @@ function App() {
           </div>
           <div className="github-content">
             <div className="github-icon-2-content">
-              <a href="https://github.com/NotRichieNguyen" target="_blank">
+              <a
+                href="https://github.com/NotRichieNguyen"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   alt="giticon"
                   className="github-icon-2"
@@ -303,3 +447,7 @@ function App() {
 }
 
 export default App;
+
+//  "homepage": "http://localhost:3000",
+
+//   "proxy": "http://localhost:3000",
