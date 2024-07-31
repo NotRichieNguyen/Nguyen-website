@@ -10,7 +10,8 @@ function scrollToMiddle() {
   window.scrollTo({ top: scrollDiv, behavior: "smooth" });
 }
 function scrollToBottom() {
-  const scrollDiv = document.querySelector(".bottom").offsetTop - 80;
+  const scrollDiv =
+    document.querySelector(".projects-root-container").offsetTop - 80;
   window.scrollTo({ top: scrollDiv, behavior: "smooth" });
 }
 function scrollToContact() {
@@ -167,7 +168,7 @@ function App() {
         </h1>
         <div className="project-container">
           <div className="project-header">
-            <h3>Full Stack Nail Salon Website</h3>
+            <h3>Nail Salon Website</h3>
           </div>
           <div className="project-techstack">
             JavaScript, React.js, RESTful APIs, Git, Vercel
