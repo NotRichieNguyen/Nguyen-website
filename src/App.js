@@ -262,16 +262,16 @@ function App() {
                 src="images/github.png"
               />
             </a>
-            <a
+            {/* <a
               href="https://github.com/NotRichieNguyen/NuTracker"
               target="_blank"
               rel="noreferrer"
               style={{ marginLeft: "20px" }}
             >
               Demo
-            </a>
+            </a> */}
             <div className="share-icon-container">
-              <a
+              {/* <a
                 href="https://github.com/NotRichieNguyen/NuTracker"
                 target="_blank"
                 rel="noreferrer"
@@ -281,7 +281,7 @@ function App() {
                   alt="share"
                   src="images/share.jpg"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
