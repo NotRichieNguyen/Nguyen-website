@@ -118,8 +118,11 @@ function App() {
             <li className="python-logo">
               <img alt="pytho" src="images/python.jpg" />
             </li>
-            <li className="django-logo">
-              <img alt="django" src="images/django.png" />
+            <li className="psql-logo">
+              <img alt="psql" src="images/psql.png" />
+            </li>
+            <li className="mongodb-logo">
+              <img alt="mongodb" src="images/mongodb.svg" />
             </li>
           </ul>
         </div>
@@ -140,15 +143,14 @@ function App() {
           </div>
           <div className="about-right-3">
             <p style={{ width: "85%" }}>
-              As a highly motivated student graduating with a B.S. in computer
-              science, I am beginning to build a foundation with multiple
-              programming languages such as HTML/CSS, JavaScript, C++, and
-              Python
+              Hi, my name is Richie Nguyen. I am a CS major expecting to
+              graduate in the Fall seemester of 2025.
             </p>
             <p style={{ width: "90%" }}>
-              Through various projects and coursework, I was able to develop
-              skills in technologies and frameworks such as React.js, Node.js,
-              Django, Git, VS Code, Google Cloud Workspace etc...
+              I was able to develop skills in ReactJS and ExpressJS for frontend
+              development. I have worked with both types of databases which
+              include PostgreSQL and MongoDB. I also have plenty of experience
+              in languages such as JavaScript, C++, Python.
             </p>
             <p style={{ width: "90%" }}>
               {" "}
@@ -166,6 +168,7 @@ function App() {
         >
           MY PROJECTS
         </h1>
+
         <div className="project-container">
           <div className="project-header">
             <h3>Nail Salon Website</h3>
@@ -191,14 +194,14 @@ function App() {
           </div>
           <div className="project-links">
             <a
-              href="https://github.com/NotRichieNguyen/Nguyen-website"
+              href="https://github.com/NotRichieNguyen/business-website"
               target="_blank"
               rel="noreferrer"
             >
               Code
             </a>
             <a
-              href="https://github.com/NotRichieNguyen/Nguyen-website"
+              href="https://github.com/NotRichieNguyen/business-website"
               target="_blank"
               rel="noreferrer"
             >
@@ -232,6 +235,62 @@ function App() {
           </div>
         </div>
         <div className="project-container">
+          <div className="project-header">
+            <h3>Auto Shop Service Tracker</h3>
+          </div>
+          <div className="project-techstack">
+            PostgreSQL, ExpressJS, ReactJS, NodeJS
+          </div>
+          <div className="new-project-thumbnail">
+            <img
+              className="project-thumbnail"
+              src="images/thumbnail4.png"
+              alt="thumbnail4"
+            />
+          </div>
+          <div className="project-links">
+            <a
+              href="https://github.com/NotRichieNguyen/Autoshop"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </a>
+            <a
+              href="https://github.com/NotRichieNguyen/Autoshop"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="github-icon-1"
+                alt="githubicon"
+                src="images/github.png"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=tR6SiQDmw6U"
+              target="_blank"
+              rel="noreferrer"
+              style={{ marginLeft: "20px" }}
+            >
+              Demo
+            </a>
+            <div className="share-icon-container">
+              <a
+                href="https://www.youtube.com/watch?v=tR6SiQDmw6U"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="share-icon"
+                  alt="share"
+                  src="images/share.jpg"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-container" style={{ marginTop: "100px" }}>
           <div className="project-header">
             <h3>Nutrition Tracker App</h3>
           </div>

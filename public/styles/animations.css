@@ -285,11 +285,18 @@
   }
 }
 
-.django-logo {
+.psql-logo {
   -webkit-animation: python-logo 5s both;
   -moz-animation: python-logo 5s both;
   -o-animation: python-logo 5s both;
   animation: python-logo 5s both;
+}
+
+.mongodb-logo {
+  -webkit-animation: python-logo 5.75s both;
+  -moz-animation: python-logo 5.75s both;
+  -o-animation: python-logo 5.75s both;
+  animation: python-logo 5.75s both;
 }
 
 @-webkit-keyframes python-logo {

@@ -45,7 +45,7 @@ a:hover {
 }
 
 .tech-stack {
-  width: 1025px;
+  width: 1225px;
   height: 200px;
   margin-top: 100px;
   margin-right: 70px;
@@ -446,7 +446,7 @@ a:hover {
 }
 
 .projects-root-container {
-  min-height: 200vh;
+  min-height: 255vh;
   background-color: rgba(241, 241, 241, 0.466);
   display: flex;
   flex-direction: column;
@@ -458,7 +458,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 0px;
+  margin-top: 25px;
   margin-bottom: 200px;
   height: 500px;
 }
