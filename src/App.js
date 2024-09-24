@@ -144,7 +144,7 @@ function App() {
           <div className="about-right-3">
             <p style={{ width: "85%" }}>
               Hi, my name is Richie Nguyen. I am a CS major expecting to
-              graduate in the Fall seemester of 2025.
+              graduate in the Fall semester of 2025.
             </p>
             <p style={{ width: "90%" }}>
               Recently, I worked with a client to develop a business website,
