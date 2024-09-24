@@ -485,12 +485,6 @@ a:hover {
   margin-bottom: 30px;
 }
 */
-.project-links {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  color: #2d2e32;
-  font-weight: bold;
-}
 
 .projects-root {
   /* border-top: 2px solid black;
@@ -511,6 +505,7 @@ a:hover {
   justify-content: start;
   font-size: 1.1em;
   width: 65%;
+  margin-bottom: 10px;
 }
 
 .projects-header-2 {
@@ -571,7 +566,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 68%;
+  width: 75%;
   margin-bottom: 30px;
   margin-top: 5px;
 }
@@ -579,8 +574,22 @@ a:hover {
 .project-techstack {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   font-weight: bold;
   margin-bottom: 40px;
+  text-align: center;
+}
+
+.tech {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project-links {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  font-weight: bold;
 }

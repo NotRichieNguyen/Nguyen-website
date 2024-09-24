@@ -86,7 +86,7 @@ function App() {
             <h1>Software Engineer</h1>
             <p>
               Hi, I'm Richie Nguyen, an ambitious CS student @ University of
-              Houston 👋
+              Houston
             </p>
             <p>Graduating in Fall 2025</p>
           </div>
