@@ -144,7 +144,7 @@ function App() {
           <div className="about-right-3">
             <p style={{ width: "85%" }}>
               Hi, my name is Richie Nguyen. I am a CS major expecting to
-              graduate in the Fall seemester of 2025.
+              graduate in the Fall semester of 2025.
             </p>
             <p style={{ width: "90%" }}>
               Recently, I worked with a client to develop a business website,
@@ -177,8 +177,8 @@ function App() {
           <div className="project-info">
             <div className="project-title">TRENDI NAILS & FACIAL 💅</div>
             <div className="project-desc">
-              A web application I developed for a client that allows users to
-              view business details, a nail gallery, and available services.
+              A web application that allows users to
+              view business details, a nail gallery, and available services. The user is able to edit their business information as needed through a google sheets form.
             </div>
             <div className="project-techstack">
               <div className="tech">JavaScript</div>
