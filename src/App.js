@@ -177,8 +177,8 @@ function App() {
           <div className="project-info">
             <div className="project-title">TRENDI NAILS & FACIAL 💅</div>
             <div className="project-desc">
-              A web application I developed for a client that allows users to
-              view business details, a nail gallery, and available services.
+              A web application that allows users to
+              view business details, a nail gallery, and available services. The user is able to edit their business information as needed through a google sheets form.
             </div>
             <div className="project-techstack">
               <div className="tech">JavaScript</div>
