@@ -83,11 +83,12 @@ function App() {
       <div className="top">
         <div className="top-top">
           <div className="introduction">
-            <h1>Aspiring Computer Science Intern</h1>
+            <h1>Software Engineer</h1>
             <p>
-              Hello, I'm Richie Nguyen, an ambitious computer science student
-              from the University of Houston, Class of 2025
+              Hi, I'm Richie Nguyen, an ambitious CS student @ University of
+              Houston
             </p>
+            <p>Graduating in Fall 2025</p>
           </div>
           <div className="profile-picture">
             <img
@@ -146,10 +147,12 @@ function App() {
               graduate in the Fall seemester of 2025.
             </p>
             <p style={{ width: "90%" }}>
-              I was able to develop skills in ReactJS and ExpressJS for frontend
-              development. I have worked with both types of databases which
-              include PostgreSQL and MongoDB. I also have plenty of experience
-              in languages such as JavaScript, C++, Python.
+              Recently, I worked with a client to develop a business website,
+              where I translated their needs into a functional platform.
+            </p>
+            <p style={{ width: "90%" }}>
+              Previously, I externed at Paragon One, where I conducted extensive
+              research on emerging blockchain technologies.
             </p>
             <p style={{ width: "90%" }}>
               {" "}
@@ -299,7 +302,7 @@ function App() {
             />
           </div>
           <div className="project-info">
-            <div className="project-title">Nutrition Ninja 🍔</div>
+            <div className="project-title">NUTRITION NINJA 🍔</div>
             <div className="project-desc">
               A web application that allowed users to search any food or drink
               and receive information on the macronutrients of the item.
@@ -629,13 +632,13 @@ function App() {
       </div>*/}
       <div className="contact-content">
         <div className="contact-top">
-          <h3>CONTACT</h3>
+          <h3>CONTACT ME!</h3>
         </div>
         <div className="contact-bot">
           <div className="linkedin-content">
             <div className="linkedin-icon-2-content">
               <a
-                href="https://www.linkedin.com/in/richienguyen36/"
+                href="https://www.linkedin.com/in/nguyen36/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -664,7 +667,7 @@ function App() {
             </div>
             <div className="github-username">NotRichieNguyen</div>
           </div>
-          <div className="contact-name">
+          {/* <div className="contact-name">
             <div className="contact-name-icon-content">
               <img
                 alt="contacticon"
@@ -673,7 +676,7 @@ function App() {
               />{" "}
             </div>
             <div className="contact-name-name">Richie Nguyen</div>
-          </div>
+          </div> */}
           <div className="mail-content">
             <div className="mail-icon-content">
               <img
