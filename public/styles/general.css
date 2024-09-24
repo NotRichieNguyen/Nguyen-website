@@ -323,7 +323,7 @@ a:hover {
 }
 
 .contact-content {
-  background-color: #fff;
+  background-color: rgba(241, 241, 241, 0.466);
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -445,9 +445,9 @@ a:hover {
   padding: 5rem;
 }
 
-.projects-root-container {
+/* .projects-root-container {
   min-height: 255vh;
-  background-color: rgba(241, 241, 241, 0.466);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -484,10 +484,103 @@ a:hover {
   border-radius: 5px;
   margin-bottom: 30px;
 }
-
+*/
 .project-links {
   display: flex;
   font-family: Poppins, sans-serif;
   color: #2d2e32;
   font-weight: bold;
+}
+
+.projects-root {
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  height: 200vh;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.projects-header {
+  font-weight: bold;
+  color: #147efb;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 1.1em;
+  width: 65%;
+}
+
+.projects-header-2 {
+  font-weight: bold;
+  font-size: 1.6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 65%;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  height: 40%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.project-thumbnail-container {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-thumbnail {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+  width: 30%;
+  text-align: center;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.project-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 68%;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.project-techstack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  font-weight: bold;
+  margin-bottom: 35px;
 }

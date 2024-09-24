@@ -10,8 +10,7 @@ function scrollToMiddle() {
   window.scrollTo({ top: scrollDiv, behavior: "smooth" });
 }
 function scrollToBottom() {
-  const scrollDiv =
-    document.querySelector(".projects-root-container").offsetTop - 80;
+  const scrollDiv = document.querySelector(".projects-root").offsetTop - 80;
   window.scrollTo({ top: scrollDiv, behavior: "smooth" });
 }
 function scrollToContact() {
@@ -161,7 +160,199 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="projects-root-container">
+      <div className="projects-root">
+        <div className="projects-header">PORTFOLIO</div>
+        <div className="projects-header-2">A Display of my Unique Projects</div>
+        <div className="project-container">
+          <div className="project-thumbnail-container">
+            <img
+              class="project-thumbnail"
+              alt="thumbnail1"
+              src="images/thumbnail5.png"
+            />
+          </div>
+          <div className="project-info">
+            <div className="project-title">TRENDI NAILS & FACIAL 💅</div>
+            <div className="project-desc">
+              A web application I developed for a client that allows users to
+              view business details, a nail gallery, and available services.
+            </div>
+            <div className="project-techstack">
+              <div className="tech">JavaScript</div>
+              <div className="tech">React</div>
+              <div className="tech">Vercel</div>
+            </div>
+            <div className="project-links">
+              <a
+                href="https://github.com/NotRichieNguyen/business-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+              </a>
+              <a
+                href="https://github.com/NotRichieNguyen/business-website"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="github-icon-1"
+                  alt="githubicon"
+                  src="images/github.png"
+                />
+              </a>
+              <a
+                href="https://business-website-seven-iota.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginLeft: "20px" }}
+              >
+                Demo
+              </a>
+              <div className="share-icon-container">
+                <a
+                  href="https://business-website-seven-iota.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="share-icon"
+                    alt="share"
+                    src="images/share.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="project-container">
+          <div className="project-info">
+            <div className="project-title">WRENCH WORK 🚗</div>
+            <div className="project-desc">
+              A full stack web application that allows a mechanic to store
+              customer information and their service records. The interface
+              allows the admin to search, create, update, and delete clients.
+            </div>
+            <div className="project-techstack" style={{ width: "78%" }}>
+              <div className="tech">PostgreSQL</div>
+              <div className="tech">Express</div>
+              <div className="tech">React</div>
+              <div className="tech">Node</div>
+            </div>
+            <div className="project-links">
+              <a
+                href="https://github.com/NotRichieNguyen/Autoshop"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+              </a>
+              <a
+                href="https://github.com/NotRichieNguyen/Autoshop"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="github-icon-1"
+                  alt="githubicon"
+                  src="images/github.png"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=tR6SiQDmw6U"
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginLeft: "20px" }}
+              >
+                Demo
+              </a>
+              <div className="share-icon-container">
+                <a
+                  href="https://www.youtube.com/watch?v=tR6SiQDmw6U"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="share-icon"
+                    alt="share"
+                    src="images/share.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project-thumbnail-container">
+            <img
+              class="project-thumbnail"
+              alt="thumbnail1"
+              src="images/thumbnail6.png"
+            />
+          </div>
+        </div>
+        <div className="project-container">
+          <div className="project-thumbnail-container">
+            <img
+              class="project-thumbnail"
+              alt="thumbnail1"
+              src="images/thumbnail7.png"
+              style={{ width: "101%" }}
+            />
+          </div>
+          <div className="project-info">
+            <div className="project-title">Nutrition Ninja 🍔</div>
+            <div className="project-desc">
+              A web application that allowed users to search any food or drink
+              and receive information on the macronutrients of the item.
+            </div>
+            <div className="project-techstack" style={{ width: "35%" }}>
+              <div className="tech">Python</div>
+              <div className="tech">Django</div>
+            </div>
+            <div className="project-links">
+              <a
+                href="https://github.com/NotRichieNguyen/NuTracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+              </a>
+              <a
+                href="https://github.com/NotRichieNguyen/NuTracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="github-icon-1"
+                  alt="githubicon"
+                  src="images/github.png"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=eNxDRC-0VMM"
+                target="_blank"
+                rel="noreferrer"
+                style={{ marginLeft: "20px" }}
+              >
+                Demo
+              </a>
+              <div className="share-icon-container">
+                <a
+                  href="https://www.youtube.com/watch?v=eNxDRC-0VMM"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="share-icon"
+                    alt="share"
+                    src="images/share.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="projects-root-container">
         <h1
           style={{ color: "#147efb", marginTop: "50px" }}
           className="project-header"
@@ -344,13 +535,7 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <div className="project-container" style={{ height: "10%" }}>
-          <div className="project-header">
-            <h3>More Coming Soon!</h3>
-          </div>
-          <div className="project-techstack">(Tech Stack)</div>
-        </div> */}
-      </div>
+      </div> */}
       {/* <div className="bottom">
         <div className="project-1-content">
           <div className="project-1-name">Full Stack Nail Salon Website</div>
@@ -501,7 +686,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="end"></div>
+      {/* <div className="end"></div> */}
     </div>
   );
 }
