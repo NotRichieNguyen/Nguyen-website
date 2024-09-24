@@ -86,7 +86,7 @@ function App() {
             <h1>Software Engineer</h1>
             <p>
               Hi, I'm Richie Nguyen, an ambitious CS student @ University of
-              Houston
+              Houston 👋
             </p>
             <p>Graduating in Fall 2025</p>
           </div>
@@ -144,7 +144,7 @@ function App() {
           <div className="about-right-3">
             <p style={{ width: "85%" }}>
               Hi, my name is Richie Nguyen. I am a CS major expecting to
-              graduate in the Fall semester of 2025. 👋
+              graduate in the Fall semester of 2025.
             </p>
             <p style={{ width: "90%" }}>
               Recently, I worked with a client to develop a business website,
