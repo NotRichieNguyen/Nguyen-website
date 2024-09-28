@@ -83,12 +83,66 @@ function App() {
       <div className="top">
         <div className="top-top">
           <div className="introduction">
-            <h1>Software Engineer</h1>
-            <p>
+            <h1 style={{ paddingLeft: "16px" }}>Software Engineer</h1>
+            <p style={{ paddingLeft: "16px" }}>
               Hi, I'm Richie Nguyen, an ambitious CS student @ University of
-              Houston
+              Houston 👨‍🎓
             </p>
-            <p>Graduating in Fall 2025</p>
+            <p style={{ paddingLeft: "16px" }}>Located in Houston, Texas 📍</p>
+            <div className="social-links">
+              <ul class="example-2">
+                <li class="icon-content">
+                  <a
+                    href="https://www.linkedin.com/in/nguyen36/"
+                    aria-label="LinkedIn"
+                    data-social="linkedin"
+                    target="blank"
+                  >
+                    <div class="filled"></div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-linkedin"
+                      viewBox="0 0 16 16"
+                      space="preserve"
+                    >
+                      <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </a>
+                  <div class="tooltip">LinkedIn</div>
+                </li>
+                <li class="icon-content">
+                  <a
+                    href="https://github.com/NotRichieNguyen"
+                    aria-label="GitHub"
+                    data-social="github"
+                    target="blank"
+                  >
+                    <div class="filled"></div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-github"
+                      viewBox="0 0 16 16"
+                      space="preserve"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </a>
+                  <div class="tooltip">GitHub</div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="profile-picture">
             <img
@@ -109,8 +163,14 @@ function App() {
             <li className="js-logo">
               <img alt="js" src="images/js.svg" />
             </li>
+            <li className="ts-logo">
+              <img alt="typescript" src="images/typescript.png" />
+            </li>
             <li className="react-logo">
               <img alt="react" src="images/react.svg" />
+            </li>
+            <li className="node-logo">
+              <img alt="node" src="images/node.png" />
             </li>
             <li className="c-logo">
               <img alt="c++" src="images/c++.png" />
@@ -120,9 +180,6 @@ function App() {
             </li>
             <li className="psql-logo">
               <img alt="psql" src="images/psql.png" />
-            </li>
-            <li className="mongodb-logo">
-              <img alt="mongodb" src="images/mongodb.svg" />
             </li>
           </ul>
         </div>
@@ -177,8 +234,9 @@ function App() {
           <div className="project-info">
             <div className="project-title">TRENDI NAILS & FACIAL 💅</div>
             <div className="project-desc">
-              A web application that allows users to
-              view business details, a nail gallery, and available services. The user is able to edit their business information as needed through a google sheets form.
+              A web application that allows users to view business details, a
+              nail gallery, and available services. The user is able to edit
+              their business information as needed through a google sheets form.
             </div>
             <div className="project-techstack">
               <div className="tech">JavaScript</div>
@@ -355,281 +413,6 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <div className="projects-root-container">
-        <h1
-          style={{ color: "#147efb", marginTop: "50px" }}
-          className="project-header"
-        >
-          MY PROJECTS
-        </h1>
-
-        <div className="project-container">
-          <div className="project-header">
-            <h3>Nail Salon Website</h3>
-          </div>
-          <div className="project-techstack">
-            JavaScript, React.js, RESTful APIs, Git, Vercel
-          </div>
-          <div className="trendi-thumbnails">
-            <div className="new-project-thumbnail">
-              <img
-                class="project-thumbnail"
-                alt="thumbnail1"
-                src="images/thumbnail3.png"
-              />
-            </div>
-            <div className="new-project-thumbnail2">
-              <img
-                class="project-thumbnail3"
-                alt="thumbnail3"
-                src="images/trendimobile.jpg"
-              />
-            </div>
-          </div>
-          <div className="project-links">
-            <a
-              href="https://github.com/NotRichieNguyen/business-website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Code
-            </a>
-            <a
-              href="https://github.com/NotRichieNguyen/business-website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="github-icon-1"
-                alt="githubicon"
-                src="images/github.png"
-              />
-            </a>
-            <a
-              href="https://business-website-seven-iota.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ marginLeft: "20px" }}
-            >
-              Demo
-            </a>
-            <div className="share-icon-container">
-              <a
-                href="https://business-website-seven-iota.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="share-icon"
-                  alt="share"
-                  src="images/share.jpg"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project-container">
-          <div className="project-header">
-            <h3>Auto Shop Service Tracker</h3>
-          </div>
-          <div className="project-techstack">
-            PostgreSQL, ExpressJS, ReactJS, NodeJS
-          </div>
-          <div className="new-project-thumbnail">
-            <img
-              className="project-thumbnail"
-              src="images/thumbnail4.png"
-              alt="thumbnail4"
-            />
-          </div>
-          <div className="project-links">
-            <a
-              href="https://github.com/NotRichieNguyen/Autoshop"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Code
-            </a>
-            <a
-              href="https://github.com/NotRichieNguyen/Autoshop"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="github-icon-1"
-                alt="githubicon"
-                src="images/github.png"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=tR6SiQDmw6U"
-              target="_blank"
-              rel="noreferrer"
-              style={{ marginLeft: "20px" }}
-            >
-              Demo
-            </a>
-            <div className="share-icon-container">
-              <a
-                href="https://www.youtube.com/watch?v=tR6SiQDmw6U"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="share-icon"
-                  alt="share"
-                  src="images/share.jpg"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="project-container" style={{ marginTop: "100px" }}>
-          <div className="project-header">
-            <h3>Nutrition Tracker App</h3>
-          </div>
-          <div className="project-techstack">Python, Django, Public APIs</div>
-          <div className="new-project-thumbnail">
-            <img
-              className="project-thumbnail"
-              src="images/thumbnail2.png"
-              alt="thumbnail2"
-            />
-          </div>
-          <div className="project-links">
-            <a
-              href="https://github.com/NotRichieNguyen/NuTracker"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Code
-            </a>
-            <a
-              href="https://github.com/NotRichieNguyen/NuTracker"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="github-icon-1"
-                alt="githubicon"
-                src="images/github.png"
-              />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=eNxDRC-0VMM"
-              target="_blank"
-              rel="noreferrer"
-              style={{ marginLeft: "20px" }}
-            >
-              Demo
-            </a>
-            <div className="share-icon-container">
-              <a
-                href="https://www.youtube.com/watch?v=eNxDRC-0VMM"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="share-icon"
-                  alt="share"
-                  src="images/share.jpg"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div className="bottom">
-        <div className="project-1-content">
-          <div className="project-1-name">Full Stack Nail Salon Website</div>
-          <div className="project-1-languages">React.js, RESTful APIs, Git</div>
-          <div className="project-1-picture">
-            <img
-              class="thumbnail-1"
-              alt="thumbnail1"
-              src="images/thumbnail1.png"
-            />
-          </div>
-          <div className="project-1-links">
-            <div className="project-1-code">
-              <a
-                href="https://github.com/NotRichieNguyen/Nguyen-website"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Code
-              </a>
-            </div>
-            <div className="github-icon-1-content">
-              <a
-                href="https://github.com/NotRichieNguyen/Nguyen-website"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="github-icon-1"
-                  alt="githubicon"
-                  src="images/github.png"
-                />
-              </a>
-            </div>
-
-          </div>
-          <div className="project-1-desc">
-            Being a computer science student, my initial ambition was to create
-            a personal website portfolio completely from scratch. Throughout my
-            journey, I acquired knowledge in HTML, CSS, JS, and React. This
-            website portfolio of mine serves as a valuable tool for presenting
-            my projects in a polished and professional manner, allowing me to
-            effectively demonstrate my skills to potential recruiters.
-          </div>
-        </div>
-        <div className="project-2-content">
-          <div className="project-2-name">Nutrition Tracker</div>
-          <div className="project-2-languages">Python, Django</div>
-          <div className="project-2-picture">
-            <img
-              className="thumbnail-2"
-              src="images/thumbnail2.png"
-              alt="thumbnail2"
-            />
-          </div>
-          <div className="project-1-links">
-            <div className="project-1-code">
-              <a
-                href="https://github.com/NotRichieNguyen/NuTracker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Code
-              </a>
-            </div>
-            <div className="github-icon-1-content">
-              <a
-                href="https://github.com/NotRichieNguyen/NuTracker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  className="github-icon-1"
-                  alt="githubicon"
-                  src="images/github.png"
-                />
-              </a>
-            </div>
-
-          </div>
-          <div className="project-2-desc">
-            As a fitness enthusiast, I set out to create a nutrition tracker web
-            application using Python and Django, effectively integrating data
-            from a public API. This project showcases my proficiency in web
-            development, demonstrating my ability to leverage external data
-            sources to provide users with a comprehensive and intuitive tool for
-            tracking their nutritional intake.
-          </div>
-        </div> 
-
-      </div>*/}
       <div className="contact-content">
         <div className="contact-top">
           <h3>CONTACT ME!</h3>
