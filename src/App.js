@@ -86,7 +86,7 @@ function App() {
             <h1 style={{ paddingLeft: "16px" }}>Software Engineer</h1>
             <p style={{ paddingLeft: "16px" }}>
               Hi, I'm Richie Nguyen, an ambitious CS student @ University of
-              Houston 👨‍🎓
+              Houston 👋
             </p>
             <p style={{ paddingLeft: "16px" }}>Located in Houston, Texas 📍</p>
             <div className="social-links">
