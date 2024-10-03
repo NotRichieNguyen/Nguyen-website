@@ -200,16 +200,16 @@ function App() {
           </div>
           <div className="about-right-3">
             <p style={{ width: "85%" }}>
-              Hi, my name is Richie Nguyen. I am a CS major expecting to
-              graduate in the Fall semester of 2025.
+              Hi, my name is Richie Nguyen. I am a CS major
+              graduating in December 2025 with a focus in Full Stack Development
             </p>
             <p style={{ width: "90%" }}>
               Recently, I worked with a client to develop a business website,
-              where I translated their needs into a functional platform.
+              where I translated their needs into a functional platform
             </p>
             <p style={{ width: "90%" }}>
               Previously, I externed at Paragon One, where I conducted extensive
-              research on emerging blockchain technologies.
+              research on data covering emerging blockchain technologies
             </p>
             <p style={{ width: "90%" }}>
               {" "}
